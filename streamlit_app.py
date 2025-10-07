@@ -58,7 +58,7 @@ payment_method = st.radio("Select Payment Method:", ["Pay at Counter", "Phone Pa
 
 phone = ""
 if payment_method == "Phone Pay":
-    phone = st.text_input("8668109481")
+    phone = st.text_input("enter your phone pay number")
 
 if st.button("Place Order"):
     if not username.strip():
