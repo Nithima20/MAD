@@ -18,10 +18,10 @@ for day, item in weekly_menu.items():
     st.write(f"**{day}:** {item}")
 
 departments = {
-     "CSE",
-     "AIDS",
-     "ECE",
-     "EEE"
+    "1": "CSE",
+    "2": "AIDS",
+    "3": "ECE",
+    "4": "EEE"
 }
 
 username = st.text_input("Enter your name:")
