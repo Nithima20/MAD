@@ -19,7 +19,7 @@ for day, item in weekly_menu.items():
 
 departments = {
     "1": "CSE",
-    "2": "AIDS",
+    "2": "AI&DS",
     "3": "ECE",
     "4": "EEE"
 }
