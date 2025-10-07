@@ -19,7 +19,7 @@ for day, item in weekly_menu.items():
 
 departments = {
      "CSE",
-     "AI&DS",
+     "AIDS",
      "ECE",
      "EEE"
 }
@@ -58,7 +58,7 @@ payment_method = st.radio("Select Payment Method:", ["Pay at Counter", "Phone Pa
 
 phone = ""
 if payment_method == "Phone Pay":
-    phone = st.text_input("enter your phone pay number")
+    phone = st.text_input("Enter your phone number for Phone Pay:")
 
 if st.button("Place Order"):
     if not username.strip():
